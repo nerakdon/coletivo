@@ -31,5 +31,6 @@ module Coletivo
   if defined?(Rails)
     require 'coletivo/rails/engine'
     require 'coletivo/rails/active_record'
+    require 'coletivo/rails/parameter_sanitization'
   end
 end

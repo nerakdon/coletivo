@@ -18,7 +18,7 @@ module Coletivo
             :person => self,
             :rateable => rateable,
             :weight => weight
-          })
+          }.permit!)
         end
       end # InstanceMethods
 
